@@ -32,7 +32,7 @@ def map_labels_hungarian(true_labels, cluster_labels):
 
 
 def load_qldgs_module():
-    module_path = Path(__file__).resolve().parent / "Method-combination" / "QLDGS-PSO-Elite.py"
+    module_path = Path(__file__).resolve().parent / "Method-combination" / "QLDGS-PSO-param_sens.py"
     if not module_path.exists():
         raise FileNotFoundError(f"Cannot locate QLDGS-PSO-Elite.py at {module_path}")
     spec = importlib.util.spec_from_file_location("qldgs_pso_elite", module_path)
