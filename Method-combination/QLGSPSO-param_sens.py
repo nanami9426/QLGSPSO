@@ -17,7 +17,6 @@ def dim_divide(dim, dim_divide):
 
 
 
-
 def init_Xc(dim, divide_min, divide_max):
     num_dim = random.randint(divide_min + 1, divide_max)
     X = np.zeros(dim)

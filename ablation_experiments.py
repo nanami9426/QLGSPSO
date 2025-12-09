@@ -40,7 +40,7 @@ def map_labels_hungarian(true_labels, cluster_labels):
 
 
 def load_qldgs_module():
-    module_path = Path(__file__).resolve().parent / "Method-combination" / "QLDGS-PSO-ablation.py"
+    module_path = Path(__file__).resolve().parent / "Method-combination" / "QLGSPSO-ablation.py"
     spec = importlib.util.spec_from_file_location("qldgs_pso_elite", module_path)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)

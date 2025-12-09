@@ -330,7 +330,7 @@ def main():
     dataset = [filename.rstrip('.csv') for filename in dataset]  # 去除.csv后缀
     data_num = len(dataset)
     # methodset = ['rlpsoasm', "tmgwo", "essa", "SFE", "PSO", "BBPSO", "VLPSO", "SFEPSO", "QLDGS-PSO", "QLDGS-PSO-Elite", 'lapsodr', "igpso"]
-    methodset = ["QLDGS-PSO"]
+    methodset = ["QLGSPSO"]
     method_num = len(methodset)
     # 共同参数
     runs = 1  # 方法运行次数

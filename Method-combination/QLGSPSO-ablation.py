@@ -4,7 +4,6 @@ import random
 import math
 from scipy.stats import norm, t, cauchy, weibull_min, weibull_max
 
-
 # 这个代码最完备,集齐了区间分层，聚类分层，区间最优引导，缺乏下层强化学习，下层搜索特征只有互信息
 # 增加pbest初始化的时候使用概率
 def dim_divide(dim, dim_divide):
